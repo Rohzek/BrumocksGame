@@ -1,4 +1,4 @@
-package items;
+package cf.brumock.firstproject.game.items;
 
 public class Armor extends Item
 {

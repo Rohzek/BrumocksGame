@@ -1,4 +1,4 @@
-package game.dice;
+package cf.brumock.firstproject.game.dice;
 
 public class Dice 
 {

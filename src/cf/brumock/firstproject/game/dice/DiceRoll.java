@@ -1,4 +1,4 @@
-package game.dice;
+package cf.brumock.firstproject.game.dice;
 
 import java.util.ArrayList;
 import java.util.List;

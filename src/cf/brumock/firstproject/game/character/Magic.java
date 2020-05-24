@@ -1,4 +1,4 @@
-package character;
+package cf.brumock.firstproject.game.character;
 
 public class Magic 
 {

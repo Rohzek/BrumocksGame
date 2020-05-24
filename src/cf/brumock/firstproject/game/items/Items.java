@@ -1,4 +1,4 @@
-package items;
+package cf.brumock.firstproject.game.items;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,10 +1,10 @@
-package main;
+package cf.brumock.firstproject.main;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import game.Game;
-import game.dice.DiceRoll;
+import cf.brumock.firstproject.game.Game;
+import cf.brumock.firstproject.game.dice.DiceRoll;
 
 public class Main 
 {

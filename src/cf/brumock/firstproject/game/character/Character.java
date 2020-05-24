@@ -1,8 +1,8 @@
-package character;
+package cf.brumock.firstproject.game.character;
 
 import java.util.List;
 
-import main.Main;
+import cf.brumock.firstproject.main.Main;
 
 public class Character 
 {

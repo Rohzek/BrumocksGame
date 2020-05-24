@@ -1,10 +1,10 @@
-package game;
+package cf.brumock.firstproject.game;
 
-import main.Main;
+import cf.brumock.firstproject.main.Main;
 
 public class Game 
 {
-	public static character.Character character = new character.Character();
+	public static cf.brumock.firstproject.game.character.Character character = new cf.brumock.firstproject.game.character.Character();
 	public Setup setup = new Setup();
 	public Options options = new Options();
 	
