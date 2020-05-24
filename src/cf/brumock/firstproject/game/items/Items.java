@@ -8,7 +8,8 @@ public class Items
 	private static Item[] items = 
 	{
 			new Item("Stone", 0d, 10f),
-			new Item("AnotherItem", 200d, 0.1f)
+			new Item("AnotherItem", 200d, 0.1f),
+			new Weapon("Sword", 150d, 2f)
 	};
 	
 	public static List<Item> ITEMS = Arrays.asList(items);

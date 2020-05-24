@@ -43,6 +43,8 @@ public class Character
 		int generated = Main.random.nextInt(1000001);
 		
 		prodigy = generated == 25 ? true : false;
+		
+		inventory = new Inventory();
 	}
 	
 	@Override
