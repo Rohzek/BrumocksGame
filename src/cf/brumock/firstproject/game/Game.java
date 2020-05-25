@@ -1,6 +1,7 @@
 package cf.brumock.firstproject.game;
 
 import cf.brumock.firstproject.game.character.Character;
+import cf.brumock.firstproject.game.character.Stats;
 import cf.brumock.firstproject.main.Main;
 
 public class Game 
@@ -10,6 +11,7 @@ public class Game
 	public Options options = new Options();
 	
 	public Game() {}
+	
 	
 	public class Setup
 	{
@@ -48,12 +50,33 @@ public class Game
 			System.out.println("\nStarting game");
 		}
 		
+		public void displayStats() {
+			System.out.println("Charisma> " + character.stats.core.charisma);
+			System.out.println("Constitution> " + character.stats.core.constitution);
+			System.out.println("Dexterity> " + character.stats.core.dexterity);
+			System.out.println("Intelligence> " + character.stats.core.intelligence);
+			System.out.println("Strength> " + character.stats.core.strength);
+			System.out.println("Wisdom> " + character.stats.core.wisdom);
+		}
+		
+		public void displaySubstats() {
+			System.out.println("Animal Handling> " + character.stats.specific.animalHandling);
+			System.out.println("Crafting> " + character.stats.specific.crafting);
+			System.out.println("Crymancy> " + character.stats.specific.cryomancy);
+			System.out.println("Engineering> " + character.stats.specific.engineering);
+			System.out.println("First Aid> " + character.stats.specific.firstAid);
+			System.out.println("Long Rifles> " + character.stats.specific.longRifles);
+		}
+		
 		public void ShowCharacter() 
 		{
 			
 			System.out.println("Name: " + character.name);
-			System.out.println("Level:" + character.level + "EXP: " + character.experience);
-			System.out.println("Name: " + character.race);
+			System.out.println("Level:" + character.level + " EXP: " + character.experience);
+			System.out.println("Stats");
+			displayStats();
+			System.out.println("Sub Stats");
+			displaySubstats();
 		}
 
 		public void GenerateCharacter() {
