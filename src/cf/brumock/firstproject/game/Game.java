@@ -1,7 +1,7 @@
 package cf.brumock.firstproject.game;
 
-import cf.brumock.firstproject.main.Main;
 import cf.brumock.firstproject.game.character.Character;
+import cf.brumock.firstproject.main.Main;
 
 public class Game 
 {
@@ -48,8 +48,16 @@ public class Game
 			System.out.println("\nStarting game");
 		}
 		
-		public void GenerateCharacter() 
+		public void ShowCharacter() 
 		{
+			
+			System.out.println("Name: " + character.name);
+			System.out.println("Level:" + character.level + "EXP: " + character.experience);
+			System.out.println("Name: " + character.race);
+		}
+
+		public void GenerateCharacter() {
+			// TODO Auto-generated method stub
 			
 		}
 	}
