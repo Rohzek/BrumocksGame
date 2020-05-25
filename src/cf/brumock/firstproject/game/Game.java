@@ -1,10 +1,11 @@
 package cf.brumock.firstproject.game;
 
 import cf.brumock.firstproject.main.Main;
+import cf.brumock.firstproject.game.character.Character;
 
 public class Game 
 {
-	public static cf.brumock.firstproject.game.character.Character character = new cf.brumock.firstproject.game.character.Character();
+	public static Character character = new Character();
 	public Setup setup = new Setup();
 	public Options options = new Options();
 	
@@ -45,6 +46,11 @@ public class Game
 			}
 			
 			System.out.println("\nStarting game");
+		}
+		
+		public void GenerateCharacter() 
+		{
+			
 		}
 	}
 	
