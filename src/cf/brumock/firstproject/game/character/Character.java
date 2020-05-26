@@ -20,7 +20,8 @@ public class Character
 	public Character() 
 	{
 		stats = new Stats();
-		stats.hitPoints = 5*stats.core.constitution;
+		// At this point constitution still = 0
+		//stats.hitPoints = 5*stats.core.constitution;
 		level = 0;
 		experience = 0f;
 		
@@ -39,6 +40,9 @@ public class Character
 		stats.specific.engineering = 0;
 		stats.specific.firstAid = 0;
 		stats.specific.longRifles = 0;
+		
+		// Have to call this after constituion is set
+		stats.hitPoints = 5*stats.core.constitution;
 		
 		int generated = Main.random.nextInt(1000001);
 		
