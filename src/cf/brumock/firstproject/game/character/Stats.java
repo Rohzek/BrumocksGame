@@ -4,6 +4,7 @@ public class Stats
 {
 	public Core core;
 	public Specific specific;
+	public int hitPoints;
 	
 	public Stats() 
 	{

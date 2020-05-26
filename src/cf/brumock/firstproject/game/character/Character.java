@@ -20,7 +20,7 @@ public class Character
 	public Character() 
 	{
 		stats = new Stats();
-		
+		stats.hitPoints = 5*stats.core.constitution;
 		level = 0;
 		experience = 0f;
 		
